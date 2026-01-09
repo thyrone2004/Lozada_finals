@@ -1,0 +1,469 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: "Nuosu SIL";
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 3rem 0px 5rem;
+}
+
+.header-left-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header-left-section > p{
+    padding-left: 10px;
+    font-size: 32px;
+    color: #19163D;
+}
+
+.pp{
+    text-decoration: none;
+    border: none;
+    color: #19163D;
+}
+
+.ubos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 3rem 0px 5rem;
+}
+
+.wew{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.kapoy{
+    font-size: 20px;
+    padding-left: 5px;
+    text-decoration: none;
+    border: none;
+    color: #19163D;
+}
+
+.service{
+    display: flex;
+    font-size: 55px;
+    font-weight: 400;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.lawas{
+    color: #19163D;
+}
+
+.box-parents{
+    display: flex;
+    flex-direction: column;
+    margin-top: -210px;
+}
+
+.boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.containers{
+    display: flex;
+    gap: 2rem;
+}
+
+.cardey{
+    background: white;
+    border-top-style: solid;
+    border-width: 0px;
+    width: 230px;
+    height: 50px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+.cardey p{
+    color: #19163D;
+    font-size: 15px;
+}
+
+.mets{
+    text-decoration: none;
+    color: #19163D;
+}
+
+.cards{
+    border-style: solid;
+    border-width: 1px;
+    background: white;
+    border-style: solid;
+    border-width: 1px;
+    width: 230px;
+    height: 50px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+.cards p{
+    color: #19163D;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.par{
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 3rem 0px 5rem;
+    color: #19163D;
+    margin-top: -150px;
+}
+
+.par1{
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.par1 p{
+    font-size: 16px;
+    font-family: "Inter";
+    margin-top: -10px;
+}
+
+.box-parent{
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+}
+
+.box-parenty{
+    display: flex;
+    flex-direction: column;
+    padding-top: 200px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.container{
+    display: flex;
+    gap: 4rem;
+}
+
+.card{
+    background: #F5F5F5;
+    border-top-style: solid;
+    border-width: 0px;
+    width: 340px;
+    height: 520px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+.card img{
+    width: 100%;
+}
+
+.card button{
+    background-color: #19163D;
+    color: white;
+    font-family: "Nuosu SIL";
+    border: 0;
+    margin-top: 20px;
+    padding: 13px 43px 13px 43px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.choose{
+    color: #19163D;
+    padding-top: 30px;
+    font-size: 19px;
+    align-items: center;
+    padding-left: -4px;
+}
+
+.kwarta{
+    color: #F95F00;
+    font-size: 22px;
+}
+
+.kwartas{
+    color: #F95F00;
+    font-size: 22px;
+    padding-top: 25px;
+}
+
+.last{
+    background-color: #19163D;
+    /* display: flex; */
+    font-family: "Nuosu SIL";
+    margin-top: 250px;
+}
+
+.last-left-section{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    padding-left: 60px;
+    padding-top: 20px;
+}
+
+.peaces{
+    font-size: 32px;
+    color: white;
+    padding-left: 5px;
+    /* display: flex; */
+}
+
+.serve{
+    font-size: 20px;
+    color: white;
+    padding-left: 60px;
+    margin-top: 0px;
+    padding-bottom: 100px;
+    font-weight: 100;
+    /* padding-right: 40px; */
+}
+
+.our{
+    font-size: 29px;
+    /* padding-left: 450px;
+    color: white; */
+}
+
+.contact{
+    font-size: 29px;
+    /* padding-left: 20px; */
+    color: white;
+    margin-top: -65px;
+    padding-left: 65px;
+}
+
+.mga div{
+    display: flex;
+}
+
+.imges ul{
+    list-style: none;
+    margin-top: -08px;
+    margin-left: 20px;
+}
+
+.img1{
+    padding-bottom: 38px;
+}
+
+.img2{
+    padding-bottom: 15px;
+}
+
+.hays{
+    display: flex;
+    flex-direction: column;
+}
+
+.one ul{
+    list-style: none;
+    border-radius: 100px;
+    padding: 10px;
+    border: none;
+    gap: 60px;
+    justify-content: space-evenly;
+    width: 100%;
+    font-size: 20px;
+    color: white;
+    padding-left: 310px;
+    margin-top: -100px;
+}
+
+.two ul{
+    list-style: none;
+    border-radius: 100px;
+    padding: 10px;
+    border: none;
+    gap: 60px;
+    justify-content: space-evenly;
+    width: 100%;
+    font-size: 20px;
+    color: white;
+    padding-left: 15px;
+    margin-top: -40px;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        padding: 0 10px;
+    }
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 1rem 0 1rem;
+    }
+    .header-left-section {
+        justify-content: flex-start;
+        width: 100%;
+    }
+    .header-left-section > p {
+        font-size: 24px;
+        padding-left: 0;
+    }
+    .ubos{
+        text-align: left;
+        align-items: start;
+        padding-left: 10px;
+    }
+    .kapoy{
+        font-size: 18px; 
+    }
+    .wew img{
+        height: 4vh;
+    }
+    .service p{
+        font-size: 40px;
+    }
+    .boxes{
+        flex-direction: row;
+        padding-top: 15px;
+        /* height: auto; */
+        /* padding: 20px 0; */
+    }
+    .containers{
+        flex-direction: row;
+        gap: 15px;
+        width: 90%;
+    }
+    .cards p{
+        padding-top: 4px;
+        font-size: 13px;
+    }
+    .mets{
+        font-size: 13px;
+    }
+    .par{
+        text-align: left;
+        padding-left: 10px;
+    }
+    .par1 h1{
+        font-size: 23px;
+    }
+    .par1 p{
+        font-size: 15px;
+    }
+    .box{
+        flex-direction: column;
+        height: auto;
+        padding: 20px 0;
+    }
+    .container {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .card {
+        width: 110%;
+        height: auto;
+    }
+    .choose{
+        font-size: 35px;
+    }
+    .card p{
+        font-size: 20px;
+    }
+    .card button{
+        margin-bottom: 35px;
+        font-size: 13px;
+        width: 60%;
+    }
+    .box-parenty{
+        margin-top: -210px;
+    }
+    .last-left-section {
+        /* flex-direction: column; */
+        align-items: flex-start;
+        padding-left: 10px;
+        padding-top: 10px;
+        display: flex;
+    }
+    .jaja{
+        padding-top: 20px;
+    }
+    .peaces {
+        font-size: 24px;
+        padding-left: 5px;
+    }
+    .serve {
+        font-size: 16px;
+        padding-left: 0;
+        padding-bottom: 60px;
+    }
+    .our {
+        padding-left: 0;
+        font-size: 24px;
+    }
+    .contact {
+        padding-top: 130px;
+        padding-left: 0;
+        font-size: 24px;
+    }
+    .mga div {
+        flex-direction: column;
+    }
+    .imges ul {
+        padding-left: 0;
+        margin-top: 0;
+    }
+    .one ul{
+        padding-left: 0;
+        margin-top: 0;
+        gap: 20px;
+        font-size: 18px;
+    }
+    .two ul{
+        padding-left: 0;
+        margin-top: 0;
+        gap: 20px;
+        font-size: 18px;
+    } 
+    .hays{
+        display: flex;
+    }
+    .imges{
+        display: flex;
+        margin-left: -35px;
+        margin-top: 5px;
+        padding-bottom: 20px;
+    }
+    .img1{
+        padding-bottom: -10px;
+    }
+    .img2{
+        margin-top: -20px;
+    }
+    .two{
+        margin-left: 20px;
+        margin-top: -197px;
+    }
+    .trad, .crem, .mem{
+        font-size: 18px;
+    }
+    .mga div{
+        padding-left: 10px;
+    }
+}

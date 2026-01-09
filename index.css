@@ -1,0 +1,363 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: "Nuosu SIL";
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 3rem 0px 5rem;
+}
+
+.header-left-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header-left-section > p{
+    padding-left: 10px;
+    font-size: 32px;
+    color: #19163D;
+}
+
+.header-right-section{
+    display: flex;
+    font-family: "INTER";
+    font-weight: 500;
+    padding-right: 30px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-right-section > ul{
+    list-style: none;
+  border-radius: 100px;
+  padding: 10px;
+  /* margin: 0; */
+  border: none;
+  display: flex;
+  gap: 60px;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.header-right-section > p{
+    padding-left: 70px;
+}
+
+.serv, .about, .test{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+.img-bg {
+    background-image: url("./images/hahaha%201.png"); /* or use encoded space */
+    background-size: cover;
+    display: flex;
+}
+
+.img-bg-center{
+    align-items: center;
+    /* justify-content: center;  */
+    text-align: center;
+    flex-direction: column;
+    margin-left: 435px ;
+    display: flex;
+}
+
+.church{
+    padding: 120px 20px 0px 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.peace{
+    font-size: 60px;
+    color: #19163D;
+    padding: 0px;
+    margin-top: -70px;
+    display: flex;
+}
+
+.funeral{
+    font-size: 28px;
+    color: #19163D;
+    margin-top: -85px;
+}
+
+.compassion{
+    font-size: 20px;
+    color: #19163D;
+    margin-top: -30px;
+}
+
+.button{
+    background-color: #282643;
+    border: none;
+    padding: 15px 40px 15px 40px;
+    color: white;
+    border-radius: 20px;
+    font-size: 14px;
+    font-family: "Nuosu SIL";
+}
+
+.butt{
+    padding: 50px 0px 110px 0px;
+}
+
+.last{
+    background-color: #19163D;
+    /* display: flex; */
+    font-family: "Nuosu SIL";
+}
+
+.last-left-section{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    padding-left: 60px;
+    padding-top: 20px;
+}
+
+.peaces{
+    font-size: 32px;
+    color: white;
+    padding-left: 5px;
+    /* display: flex; */
+}
+
+.serve{
+    font-size: 20px;
+    color: white;
+    padding-left: 60px;
+    margin-top: 0px;
+    padding-bottom: 100px;
+    font-weight: 100;
+    /* padding-right: 40px; */
+}
+
+.our{
+    font-size: 29px;
+    /* padding-left: 450px;
+    color: white; */
+}
+
+.contact{
+    font-size: 29px;
+    /* padding-left: 20px; */
+    color: white;
+    margin-top: -65px;
+    padding-left: 65px;
+}
+
+.mga div{
+    display: flex;
+}
+
+.imges ul{
+    list-style: none;
+    margin-top: -08px;
+    margin-left: 20px;
+}
+
+.img1{
+    padding-bottom: 38px;
+}
+
+.img2{
+    padding-bottom: 15px;
+}
+
+.hays{
+    display: flex;
+    flex-direction: column;
+}
+
+.one ul{
+    list-style: none;
+    border-radius: 100px;
+    padding: 10px;
+    border: none;
+    gap: 60px;
+    justify-content: space-evenly;
+    width: 100%;
+    font-size: 20px;
+    color: white;
+    padding-left: 310px;
+    margin-top: -100px;
+}
+
+.two ul{
+    list-style: none;
+    border-radius: 100px;
+    padding: 10px;
+    border: none;
+    gap: 60px;
+    justify-content: space-evenly;
+    width: 100%;
+    font-size: 20px;
+    color: white;
+    padding-left: 15px;
+    margin-top: -40px;
+}
+
+/* .imges {
+    flex: 1;
+}
+
+.two {
+    flex: 1;
+} */
+
+/* mobile phone responsive */
+@media screen and (max-width: 600px) {
+    body {
+        padding: 0 10px;
+    }
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 1rem 0 1rem;
+    }
+    .header-left-section {
+        justify-content: flex-start;
+        width: 100%;
+    }
+    .header-left-section > p {
+        font-size: 24px;
+        padding-left: 0;
+    }
+    .header-right-section {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-right: 0;
+        margin-top: 20px;
+        font-size: 14px;
+        align-items: center;
+        text-align: center;
+        display: flex;
+    }
+    .header-right-section > ul {
+        /* flex-direction: column; */
+        text-align: center;
+        align-items: center;
+        gap: 50px;
+        padding: 0;
+        width: 100%;
+    }
+    .img-bg{
+        display: flex;
+        width: 100%;
+    }
+    .img-bg-center {
+        margin-left: 0;
+        padding: 0 10px;
+        align-items: center;
+    }
+    .church {
+        padding: 60px 0 0 0;
+        width: 100%;
+        align-items: center;
+    }
+    .peace {
+        font-size: 36px;
+        margin-top: -40px;
+        justify-content: center;
+    }
+    .funeral {
+        font-size: 18px;
+        margin-top: -50px;
+    }
+    .compassion {
+        font-size: 14px;
+        margin-top: -20px;
+        text-align: center;
+    }
+    .button {
+        padding: 12px 30px;
+        font-size: 12px;
+    }
+    .butt {
+        padding: 30px 0 60px 0;
+    }
+    .last-left-section {
+        /* flex-direction: column; */
+        align-items: flex-start;
+        padding-left: 10px;
+        padding-top: 10px;
+        display: flex;
+    }
+    .jaja{
+        padding-top: 20px;
+    }
+    .peaces {
+        font-size: 24px;
+        padding-left: 5px;
+    }
+    .serve {
+        font-size: 16px;
+        padding-left: 0;
+        padding-bottom: 60px;
+    }
+    .our {
+        padding-left: 0;
+        font-size: 24px;
+    }
+    .contact {
+        padding-top: 130px;
+        padding-left: 0;
+        font-size: 24px;
+    }
+    .mga div {
+        flex-direction: column;
+    }
+    .imges ul {
+        padding-left: 0;
+        margin-top: 0;
+    }
+    .one ul{
+        padding-left: 0;
+        margin-top: 0;
+        gap: 20px;
+        font-size: 18px;
+    }
+    .two ul{
+        padding-left: 0;
+        margin-top: 0;
+        gap: 20px;
+        font-size: 18px;
+    } 
+    .hays{
+        display: flex;
+    }
+    .imges{
+        display: flex;
+        margin-left: -35px;
+        margin-top: 5px;
+        padding-bottom: 20px;
+    }
+    .img1{
+        padding-bottom: -10px;
+    }
+    .img2{
+        margin-top: -20px;
+    }
+    .two{
+        margin-left: 20px;
+        margin-top: -197px;
+    }
+    .trad, .crem, .mem{
+        font-size: 18px;
+    }
+    .mga div{
+        padding-left: 10px;
+    }
+}
+     
